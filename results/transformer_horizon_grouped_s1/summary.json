@@ -1,0 +1,45 @@
+{
+  "config": {
+    "p": 97,
+    "fraction": 0.6,
+    "val_fraction": 0.2,
+    "width": 32,
+    "lr": 0.003,
+    "weight_decay": 1.0,
+    "steps": 12000,
+    "batch_size": 256,
+    "eval_every": 100,
+    "threads": 1,
+    "device": "cpu",
+    "model": "transformer",
+    "split": "grouped",
+    "seed": 1,
+    "condition": "horizon"
+  },
+  "parameters": 19201,
+  "seconds": 52.18984579400001,
+  "final_train_accuracy": 0.9728963684676705,
+  "final_val_accuracy": 0.9585326953748007,
+  "test": {
+    "loss": 0.5357006395110031,
+    "accuracy": 0.9596388741370154
+  },
+  "test_swapped_seen": {
+    "n": 0,
+    "accuracy": null
+  },
+  "test_swapped_unseen": {
+    "n": 1883,
+    "accuracy": 0.9596388741370154
+  },
+  "prediction_swap_consistency": 0.9846954941749573,
+  "baseline": {
+    "fallback_class": 47,
+    "majority_accuracy": 0.005841741901221455,
+    "swap_lookup_accuracy": 0.005841741901221455
+  },
+  "train_99_first": 4900,
+  "val_90_first": 2100,
+  "delayed_generalization_proxy": false,
+  "best_val_loss_step_diagnostic_only": 11200
+}

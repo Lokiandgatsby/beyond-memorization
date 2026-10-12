@@ -1,0 +1,7 @@
+{
+  "runs_verified": 30,
+  "checkpoint_predictions_match": true,
+  "split_integrity": true,
+  "extended_prefix_matches_base": 6,
+  "test_accuracy_recomputed_from_saved_arrays": true
+}

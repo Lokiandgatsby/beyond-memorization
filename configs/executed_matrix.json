@@ -1,0 +1,482 @@
+[
+  {
+    "name": "mlp_main_ordered_s0",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "mlp",
+      "split": "ordered",
+      "seed": 0,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "mlp_main_ordered_s1",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "mlp",
+      "split": "ordered",
+      "seed": 1,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "mlp_main_ordered_s2",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "mlp",
+      "split": "ordered",
+      "seed": 2,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "mlp_main_grouped_s0",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "mlp",
+      "split": "grouped",
+      "seed": 0,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "mlp_main_grouped_s1",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "mlp",
+      "split": "grouped",
+      "seed": 1,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "mlp_main_grouped_s2",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "mlp",
+      "split": "grouped",
+      "seed": 2,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "transformer_main_ordered_s0",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "ordered",
+      "seed": 0,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "transformer_main_ordered_s1",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "ordered",
+      "seed": 1,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "transformer_main_ordered_s2",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "ordered",
+      "seed": 2,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "transformer_main_grouped_s0",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "grouped",
+      "seed": 0,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "transformer_main_grouped_s1",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "grouped",
+      "seed": 1,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "transformer_main_grouped_s2",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "grouped",
+      "seed": 2,
+      "condition": "main"
+    }
+  },
+  {
+    "name": "transformer_fraction_ordered_s0",
+    "config": {
+      "p": 97,
+      "fraction": 0.3,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "ordered",
+      "seed": 0,
+      "condition": "fraction"
+    }
+  },
+  {
+    "name": "transformer_fraction_ordered_s1",
+    "config": {
+      "p": 97,
+      "fraction": 0.3,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "ordered",
+      "seed": 1,
+      "condition": "fraction"
+    }
+  },
+  {
+    "name": "transformer_fraction_ordered_s2",
+    "config": {
+      "p": 97,
+      "fraction": 0.3,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "ordered",
+      "seed": 2,
+      "condition": "fraction"
+    }
+  },
+  {
+    "name": "transformer_fraction_grouped_s0",
+    "config": {
+      "p": 97,
+      "fraction": 0.3,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "grouped",
+      "seed": 0,
+      "condition": "fraction"
+    }
+  },
+  {
+    "name": "transformer_fraction_grouped_s1",
+    "config": {
+      "p": 97,
+      "fraction": 0.3,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "grouped",
+      "seed": 1,
+      "condition": "fraction"
+    }
+  },
+  {
+    "name": "transformer_fraction_grouped_s2",
+    "config": {
+      "p": 97,
+      "fraction": 0.3,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 1.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "grouped",
+      "seed": 2,
+      "condition": "fraction"
+    }
+  },
+  {
+    "name": "transformer_decay_ordered_s0",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "ordered",
+      "seed": 0,
+      "condition": "decay"
+    }
+  },
+  {
+    "name": "transformer_decay_ordered_s1",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "ordered",
+      "seed": 1,
+      "condition": "decay"
+    }
+  },
+  {
+    "name": "transformer_decay_ordered_s2",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "ordered",
+      "seed": 2,
+      "condition": "decay"
+    }
+  },
+  {
+    "name": "transformer_decay_grouped_s0",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "grouped",
+      "seed": 0,
+      "condition": "decay"
+    }
+  },
+  {
+    "name": "transformer_decay_grouped_s1",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "grouped",
+      "seed": 1,
+      "condition": "decay"
+    }
+  },
+  {
+    "name": "transformer_decay_grouped_s2",
+    "config": {
+      "p": 97,
+      "fraction": 0.6,
+      "val_fraction": 0.2,
+      "width": 32,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "steps": 3000,
+      "batch_size": 256,
+      "eval_every": 100,
+      "threads": 1,
+      "device": "cpu",
+      "model": "transformer",
+      "split": "grouped",
+      "seed": 2,
+      "condition": "decay"
+    }
+  }
+]

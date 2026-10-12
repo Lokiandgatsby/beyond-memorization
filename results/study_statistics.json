@@ -1,0 +1,53 @@
+{
+  "runs": 30,
+  "summed_run_seconds": 578.1176855550001,
+  "proxy_count": 0,
+  "paired_differences": [
+    {
+      "model": "mlp",
+      "condition": "main",
+      "grouped_minus_ordered": [
+        0.043547530536378054,
+        -0.02336696760488577,
+        -0.004779607010090281
+      ],
+      "mean": 0.005133651973800668,
+      "sd": 0.03454116447277901
+    },
+    {
+      "model": "transformer",
+      "condition": "main",
+      "grouped_minus_ordered": [
+        0.3770578863515667,
+        0.3181093998937865,
+        -0.11949017525225702
+      ],
+      "mean": 0.19189237033103204,
+      "sd": 0.27127117112653637
+    },
+    {
+      "model": "transformer",
+      "condition": "fraction",
+      "grouped_minus_ordered": [
+        -0.6534211644708882,
+        -0.9825754356141096,
+        -0.7847428814279642
+      ],
+      "mean": -0.8069131605043207,
+      "sd": 0.16569331461679132
+    },
+    {
+      "model": "transformer",
+      "condition": "decay",
+      "grouped_minus_ordered": [
+        -0.3775889537971322,
+        -0.4328199681359533,
+        -0.33935209771640995
+      ],
+      "mean": -0.38325367321649845,
+      "sd": 0.04699071700630079
+    }
+  ],
+  "train_99_count": 7,
+  "val_90_count": 13
+}

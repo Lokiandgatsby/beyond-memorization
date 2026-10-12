@@ -1,0 +1,122 @@
+[
+  {
+    "model": "mlp",
+    "condition": "main",
+    "split": "ordered",
+    "n": 3,
+    "test_mean": 0.9805275269959285,
+    "test_sd": 0.033727312592065226,
+    "train_mean": 0.986064363743726,
+    "val_mean": 0.9794435583909268,
+    "lookup_mean": 0.5974508762612852,
+    "overlap_mean": 0.6016796154388767
+  },
+  {
+    "model": "mlp",
+    "condition": "main",
+    "split": "grouped",
+    "n": 3,
+    "test_mean": 0.9856611789697292,
+    "test_sd": 0.009305053355249702,
+    "train_mean": 0.9992914083259521,
+    "val_mean": 0.9860003544214071,
+    "lookup_mean": 0.004956629491945477,
+    "overlap_mean": 0.0
+  },
+  {
+    "model": "transformer",
+    "condition": "main",
+    "split": "ordered",
+    "n": 3,
+    "test_mean": 0.6546291379005134,
+    "test_sd": 0.20283879903585353,
+    "train_mean": 0.6839090640684972,
+    "val_mean": 0.6489455963140173,
+    "lookup_mean": 0.5974508762612852,
+    "overlap_mean": 0.6016796154388767
+  },
+  {
+    "model": "transformer",
+    "condition": "main",
+    "split": "grouped",
+    "n": 3,
+    "test_mean": 0.8465215082315454,
+    "test_sd": 0.07788969085411508,
+    "train_mean": 0.9000295246530854,
+    "val_mean": 0.8585858585858586,
+    "lookup_mean": 0.004956629491945477,
+    "overlap_mean": 0.0
+  },
+  {
+    "model": "transformer",
+    "condition": "fraction",
+    "split": "ordered",
+    "n": 3,
+    "test_mean": 0.8084714548802946,
+    "test_sd": 0.16492166156197083,
+    "train_mean": 0.8603827072997875,
+    "val_mean": 0.8155236576289209,
+    "lookup_mean": 0.30280492987675306,
+    "overlap_mean": 0.3004945889933377
+  },
+  {
+    "model": "transformer",
+    "condition": "fraction",
+    "split": "grouped",
+    "n": 3,
+    "test_mean": 0.001558294375973934,
+    "test_sd": 0.0010482114029571287,
+    "train_mean": 0.7696669029057407,
+    "val_mean": 0.0026581605528973955,
+    "lookup_mean": 0.007437314067148322,
+    "overlap_mean": 0.0
+  },
+  {
+    "model": "transformer",
+    "condition": "decay",
+    "split": "ordered",
+    "n": 3,
+    "test_mean": 0.38785625774473353,
+    "test_sd": 0.04786780871451517,
+    "train_mean": 0.7962798937112489,
+    "val_mean": 0.392521708311182,
+    "lookup_mean": 0.5974508762612852,
+    "overlap_mean": 0.6016796154388767
+  },
+  {
+    "model": "transformer",
+    "condition": "decay",
+    "split": "grouped",
+    "n": 3,
+    "test_mean": 0.004602584528235085,
+    "test_sd": 0.0011055050448572135,
+    "train_mean": 0.9287274874520225,
+    "val_mean": 0.0058479532163742695,
+    "lookup_mean": 0.004956629491945477,
+    "overlap_mean": 0.0
+  },
+  {
+    "model": "transformer",
+    "condition": "horizon",
+    "split": "ordered",
+    "n": 3,
+    "test_mean": 0.6776420605416887,
+    "test_sd": 0.19995165376352336,
+    "train_mean": 0.701269560082669,
+    "val_mean": 0.672160198475988,
+    "lookup_mean": 0.5974508762612852,
+    "overlap_mean": 0.6016796154388767
+  },
+  {
+    "model": "transformer",
+    "condition": "horizon",
+    "split": "grouped",
+    "n": 3,
+    "test_mean": 0.9327314568950257,
+    "test_sd": 0.023453307714891396,
+    "train_mean": 0.9551225273103041,
+    "val_mean": 0.9284068757752969,
+    "lookup_mean": 0.004956629491945477,
+    "overlap_mean": 0.0
+  }
+]
